@@ -6,3 +6,5 @@
 5. Make shellscripts to inject and set up apps automatically
 6. Make Vagrantfile to run shellscripts on machines and set up VMs and dependencies (CentOS/Debian)
 7. Automate everything and finetune
+
+For testing use `$ docker run --name postgres-db -e POSTGRES_PASSWORD=abcd1234 -p 5432:5432 -d postgres`
