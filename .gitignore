@@ -1,2 +1,3 @@
 .vagrant
 srcs/inventory-app/node_modules
+srcs/inventory-app/package-lock.json
