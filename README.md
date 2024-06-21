@@ -8,3 +8,6 @@
 7. Automate everything and finetune
 
 For testing use `$ docker run --name postgres-db -e POSTGRES_PASSWORD=abcd1234 -p 5432:5432 -d postgres`
+
+# Documentation 
+1. Made inventory-app with simple docker database for testing

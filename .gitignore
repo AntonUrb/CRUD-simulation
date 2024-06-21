@@ -1,3 +1,5 @@
 .vagrant
 srcs/inventory-app/node_modules
 srcs/inventory-app/package-lock.json
+srcs/gateway-app/node_modules
+srcs/gateway-app/package-lock.json
