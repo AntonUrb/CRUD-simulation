@@ -3,3 +3,5 @@ srcs/inventory-app/node_modules
 srcs/inventory-app/package-lock.json
 srcs/gateway-app/node_modules
 srcs/gateway-app/package-lock.json
+srcs/billing-app/node_modules
+srcs/billing-app/package-lock.json

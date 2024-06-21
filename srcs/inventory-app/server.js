@@ -11,7 +11,7 @@ app.use("/api/movies", routes)
 // Sync the database
 sequelize.sync().then(() => {
     console.log('Database synced!');
-    app.listen(port, async ()=>{
+    app.listen(port, async () => {
         console.log(`Server is running on port: ${port}`)
     })
 });

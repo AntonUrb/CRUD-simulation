@@ -2,15 +2,15 @@ const db = require('../models/index.js')
 
 
 const createMovie = (req, res) => {
-    const { title, description } = req.body;  // Deconstruct title and description from req.body
+  const { title, description } = req.body;  // Deconstruct title and description from req.body
 
-    db.Movie.create({ title, description })
-      .then(movie => {
-        res.status(201).json(movie);  // Send the created movie as the response
-      })
-      .catch(error => {
-        res.status(400).json({ error: error.message });  // Send the error message as the response
-      });
+  db.Movie.create({ title, description })
+    .then(movie => {
+      res.status(201).json(movie);  // Send the created movie as the response
+    })
+    .catch(error => {
+      res.status(400).json({ error: error.message });  // Send the error message as the response
+    });
 };
 
 // Finds all movies
@@ -18,21 +18,21 @@ const findAllMovies = (req, res) => {
   const { title } = req.query;
 
   if (title) {
-    return db.Movie.findOne({where: title})
-    .then(movie => {
-      if (movie) {
-        res.status(200).json(movie);
-      } else {
-        res.status(404).json({ error: 'Movie not found' });
-      }
-    }) 
+    return db.Movie.findOne({ where: title })
+      .then(movie => {
+        if (movie) {
+          res.status(200).json(movie);
+        } else {
+          res.status(404).json({ error: 'Movie not found' });
+        }
+      })
   }
   db.Movie.findAll().then(movies => {
     res.status(200).json(movies);  // Send the created movie as the response
   })
-  .catch(error => {
-    res.status(400).json({ error: error.message });  // Send the error message as the response
-  });
+    .catch(error => {
+      res.status(400).json({ error: error.message });  // Send the error message as the response
+    });
 };
 
 const findMovie = (req, res) => {
@@ -92,9 +92,9 @@ const deleteMovie = (req, res) => {
       truncate: true,
     }).then(rowsDeleted => {
       if (rowsDeleted) {
-        res.status(200).json({ message: 'All movies deleted successfully'})
+        res.status(200).json({ message: 'All movies deleted successfully' })
       } else {
-        res.status(404).json({ error: 'No movies found'})
+        res.status(404).json({ error: 'No movies found' })
       }
     });
   }
@@ -118,9 +118,9 @@ const deleteMovie = (req, res) => {
 
 // Export everything
 module.exports = {
-    createMovie,
-    findAllMovies,
-    findMovie,
-    updateMovie,
-    deleteMovie,
-  };
+  createMovie,
+  findAllMovies,
+  findMovie,
+  updateMovie,
+  deleteMovie,
+};

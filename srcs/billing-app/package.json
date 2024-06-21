@@ -1,5 +1,5 @@
 {
-  "name": "gateway-app",
+  "name": "billing-app",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -11,6 +11,9 @@
   "dependencies": {
     "amqplib": "^0.10.4",
     "express": "^4.19.2",
-    "http-proxy-middleware": "^3.0.0"
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
   }
 }
