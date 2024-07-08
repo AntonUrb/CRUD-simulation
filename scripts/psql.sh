@@ -3,6 +3,7 @@ project="$1"
 
 db(){
     export HOME="/home/vagrant"
+    export $(grep -v '^#' $HOME/.env | xargs)
     
     echo "export DB_UNAME=$DB_UNAME" >>$HOME/.bashrc
     echo "export DB_PW=$DB_PW" >>$HOME/.bashrc
@@ -11,3 +12,5 @@ db(){
     cd $HOME
     sudo systemctl restart psql
 }
+
+db

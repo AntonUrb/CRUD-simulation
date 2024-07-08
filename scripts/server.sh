@@ -24,5 +24,5 @@ set_env(){
     echo "export OTHER_VAR=value" >> /home/vagrant/.profile
 }
 
-set_env()
-install_node()
+set_env
+install_node
