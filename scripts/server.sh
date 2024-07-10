@@ -4,13 +4,23 @@ project="$1"
 install_node() {
     echo "$project here"
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+    echo "$project 1"
     source ~/.nvm/nvm.sh
+    echo "$project 2"
     nvm install --lts
+    echo "$project 3"
     nvm use --lts
+    echo "$project 4"
+    source ~/.bashrc
+    echo "$project 5"
     sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
+    echo "$project 6"
     sudo DEBIAN_FRONTEND=noninteractive apt-get install npm -y
-    npm install npm@latest -g
+    echo "$project 7"
+    npm install -g npm@latest -y
+    echo "$project 8"
     sudo chown -R 1000:1000 "/home/vagrant/.npm"
+    echo "$project 9"
     npm install pm2 -g
 }
 

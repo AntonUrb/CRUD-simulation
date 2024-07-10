@@ -1,0 +1,326 @@
+ INFO global: Vagrant version: 2.2.19
+ INFO global: Ruby version: 3.0.2
+ INFO global: RubyGems version: 3.3.5
+ INFO global: VAGRANT_LOG="debug"
+ WARN global: resolv replacement has not been enabled!
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/providers/virtualbox/plugin.rb
+ INFO manager: Registered plugin: VirtualBox provider
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/providers/hyperv/plugin.rb
+ INFO manager: Registered plugin: Hyper-V provider
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/providers/docker/plugin.rb
+ INFO manager: Registered plugin: docker-provider
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/pushes/atlas/plugin.rb
+ INFO manager: Registered plugin: atlas
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/pushes/noop/plugin.rb
+ INFO manager: Registered plugin: noop
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/pushes/ftp/plugin.rb
+ INFO manager: Registered plugin: ftp
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/pushes/heroku/plugin.rb
+ INFO manager: Registered plugin: heroku
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/pushes/local-exec/plugin.rb
+ INFO manager: Registered plugin: local-exec
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/nixos/plugin.rb
+ INFO manager: Registered plugin: NixOS guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/solaris/plugin.rb
+ INFO manager: Registered plugin: Solaris guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/centos/plugin.rb
+ INFO manager: Registered plugin: CentOS guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/ubuntu/plugin.rb
+ INFO manager: Registered plugin: Ubuntu guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/netbsd/plugin.rb
+ INFO manager: Registered plugin: NetBSD guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/fedora/plugin.rb
+ INFO manager: Registered plugin: Fedora guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/smartos/plugin.rb
+ INFO manager: Registered plugin: SmartOS guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/pld/plugin.rb
+ INFO manager: Registered plugin: PLD Linux guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/windows/plugin.rb
+ INFO manager: Registered plugin: Windows guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/mint/plugin.rb
+ INFO manager: Registered plugin: Mint guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/omnios/plugin.rb
+ INFO manager: Registered plugin: OmniOS guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/kali/plugin.rb
+ INFO manager: Registered plugin: Kali guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/elementary/plugin.rb
+ INFO manager: Registered plugin: Elementary guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/tinycore/plugin.rb
+ INFO manager: Registered plugin: TinyCore Linux guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/linux/plugin.rb
+ INFO manager: Registered plugin: Linux guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/dragonflybsd/plugin.rb
+ INFO manager: Registered plugin: DragonFly BSD guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/coreos/plugin.rb
+ INFO manager: Registered plugin: CoreOS guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/openbsd/plugin.rb
+ INFO manager: Registered plugin: OpenBSD guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/haiku/plugin.rb
+ INFO manager: Registered plugin: Haiku guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD-based guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/photon/plugin.rb
+ INFO manager: Registered plugin: VMware Photon guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/esxi/plugin.rb
+ INFO manager: Registered plugin: ESXi guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/alpine/plugin.rb
+ INFO manager: Registered plugin: Alpine guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/openwrt/plugin.rb
+ INFO manager: Registered plugin: OpenWrt guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/darwin/plugin.rb
+ INFO manager: Registered plugin: Darwin guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/trisquel/plugin.rb
+ INFO manager: Registered plugin: Trisquel guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/atomic/plugin.rb
+ INFO manager: Registered plugin: Atomic Host guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/debian/plugin.rb
+ INFO manager: Registered plugin: Debian guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/arch/plugin.rb
+ INFO manager: Registered plugin: Arch guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/funtoo/plugin.rb
+ INFO manager: Registered plugin: Funtoo guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/amazon/plugin.rb
+ INFO manager: Registered plugin: Amazon Linux guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/solaris11/plugin.rb
+ INFO manager: Registered plugin: Solaris 11 guest.
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/guests/rocky/plugin.rb
+ INFO manager: Registered plugin: Rocky guest
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/communicators/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh communicator
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/communicators/winssh/plugin.rb
+ INFO manager: Registered plugin: windows ssh communicator
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/communicators/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm communicator
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/shell/plugin.rb
+ INFO manager: Registered plugin: shell
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/salt/plugin.rb
+ INFO manager: Registered plugin: salt
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/chef/plugin.rb
+ INFO manager: Registered plugin: chef
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/puppet/plugin.rb
+ INFO manager: Registered plugin: puppet
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/ansible/plugin.rb
+ INFO manager: Registered plugin: ansible
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/podman/plugin.rb
+ INFO manager: Registered plugin: podman
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/cfengine/plugin.rb
+ INFO manager: Registered plugin: CFEngine Provisioner
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/file/plugin.rb
+ INFO manager: Registered plugin: file
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/container/plugin.rb
+ INFO manager: Registered plugin: container
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/provisioners/docker/plugin.rb
+ INFO manager: Registered plugin: docker
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/kernel_v2/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/winrm_config/plugin.rb
+ INFO manager: Registered plugin: winrm-config command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/validate/plugin.rb
+ INFO manager: Registered plugin: validate command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/destroy/plugin.rb
+ INFO manager: Registered plugin: destroy command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/provider/plugin.rb
+ INFO manager: Registered plugin: provider command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/login/plugin.rb
+ INFO manager: Registered plugin: vagrant-login
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/cap/plugin.rb
+ INFO manager: Registered plugin: cap command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/autocomplete/plugin.rb
+ INFO manager: Registered plugin: autocomplete command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/global-status/plugin.rb
+ INFO manager: Registered plugin: global-status command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/upload/plugin.rb
+ INFO manager: Registered plugin: upload command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/help/plugin.rb
+ INFO manager: Registered plugin: help command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/push/plugin.rb
+ INFO manager: Registered plugin: push command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/package/plugin.rb
+ INFO manager: Registered plugin: package command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/cloud/plugin.rb
+ INFO manager: Registered plugin: vagrant-cloud
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/init/plugin.rb
+ INFO manager: Registered plugin: init command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/halt/plugin.rb
+ INFO manager: Registered plugin: halt command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/provision/plugin.rb
+ INFO manager: Registered plugin: provision command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/powershell/plugin.rb
+ INFO manager: Registered plugin: powershell command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/up/plugin.rb
+ INFO manager: Registered plugin: up command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/snapshot/plugin.rb
+ INFO manager: Registered plugin: snapshot command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/status/plugin.rb
+ INFO manager: Registered plugin: status command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/suspend/plugin.rb
+ INFO manager: Registered plugin: suspend command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/list-commands/plugin.rb
+ INFO manager: Registered plugin: list-commands command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/version/plugin.rb
+ INFO manager: Registered plugin: version command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/plugin/plugin.rb
+ INFO manager: Registered plugin: plugin command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/reload/plugin.rb
+ INFO manager: Registered plugin: reload command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/rdp/plugin.rb
+ INFO manager: Registered plugin: rdp command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/resume/plugin.rb
+ INFO manager: Registered plugin: resume command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/box/plugin.rb
+ INFO manager: Registered plugin: box command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/ssh_config/plugin.rb
+ INFO manager: Registered plugin: ssh-config command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/commands/port/plugin.rb
+ INFO manager: Registered plugin: port command
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/windows/plugin.rb
+ INFO manager: Registered plugin: Windows host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/linux/plugin.rb
+ INFO manager: Registered plugin: Linux host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/null/plugin.rb
+ INFO manager: Registered plugin: null host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/darwin/plugin.rb
+ INFO manager: Registered plugin: Mac OS X host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/arch/plugin.rb
+ INFO manager: Registered plugin: Arch host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/hosts/void/plugin.rb
+ INFO manager: Registered plugin: Void host
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/synced_folders/nfs/plugin.rb
+ INFO manager: Registered plugin: NFS synced folders
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/synced_folders/smb/plugin.rb
+ INFO manager: Registered plugin: SMB synced folders
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/synced_folders/rsync/plugin.rb
+ INFO manager: Registered plugin: RSync synced folders
+DEBUG global: Loading core plugin: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/plugins/kernel_v1/plugin.rb
+ INFO manager: Registered plugin: kernel
+ INFO vagrant: `vagrant` invoked: ["up", "gateway-app", "--debug"]
+DEBUG vagrant: Creating Vagrant environment
+ INFO environment: Environment initialized (#<Vagrant::Environment:0x00005570d2ecc0f0>)
+ INFO environment:   - cwd: /home/karl/projects/crud-master
+ INFO environment: Home path: /home/karl/.vagrant.d
+DEBUG environment: Effective local data path: /home/karl/projects/crud-master/.vagrant
+ INFO environment: Local data path: /home/karl/projects/crud-master/.vagrant
+DEBUG environment: Creating: /home/karl/projects/crud-master/.vagrant
+DEBUG manager: Enabling localized plugins
+ INFO manager: Plugins:
+DEBUG solution_file: new solution file instance plugin_file=/home/karl/projects/crud-master/.vagrant/plugins.json solution_file=/home/karl/projects/crud-master/.vagrant/bundler/local.sol
+DEBUG solution_file: missing file so skipping loading
+DEBUG bundler: solution file in use for init: <Vagrant::Bundler::SolutionFile:/home/karl/projects/crud-master/.vagrant/plugins.json:/home/karl/projects/crud-master/.vagrant/bundler/local.sol:invalid>
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: generating solution set for configured plugins
+DEBUG bundler: Current generated plugin dependency list: []
+DEBUG bundler: resolving solution from available specification set
+DEBUG bundler: solution set for configured plugins has been resolved
+DEBUG bundler: activating solution set
+DEBUG bundler: Activating solution set: []
+DEBUG solution_file: plugin file does not exist, not storing solution
+DEBUG bundler: solution set stored to - <Vagrant::Bundler::SolutionFile:/home/karl/projects/crud-master/.vagrant/plugins.json:/home/karl/projects/crud-master/.vagrant/bundler/local.sol:invalid>
+ INFO manager: Loading plugins...
+DEBUG manager: Enabling globalized plugins
+ INFO manager: Plugins:
+ INFO manager:   - vagrant-libvirt = [installed: undefined constraint: > 0]
+DEBUG solution_file: new solution file instance plugin_file=/home/karl/.vagrant.d/plugins.json solution_file=/home/karl/projects/crud-master/.vagrant/bundler/global.sol
+DEBUG solution_file: missing file so skipping loading
+DEBUG bundler: solution file in use for init: <Vagrant::Bundler::SolutionFile:/home/karl/.vagrant.d/plugins.json:/home/karl/projects/crud-master/.vagrant/bundler/global.sol:invalid>
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: generating solution set for configured plugins
+DEBUG bundler: Current generated plugin dependency list: [<Gem::Dependency type=:runtime name="vagrant-libvirt" requirements="> 0">]
+DEBUG bundler: resolving solution from available specification set
+DEBUG bundler: solution set for configured plugins has been resolved
+DEBUG bundler: activating solution set
+DEBUG bundler: Activating solution set: ["racc-1.5.1", "mini_portile2-2.7.1", "nokogiri-1.13.1", "rexml-3.2.5", "formatador-0.2.5", "excon-0.88.0", "mime-types-data-3.2015.1120", "mime-types-3.3.1", "builder-3.2.4", "fog-core-2.1.0", "json-2.5.1", "ruby-libvirt-0.7.1", "fog-xml-0.1.1", "multi_json-1.14.1", "fog-json-1.2.0", "fog-libvirt-0.8.0", "vagrant-libvirt-0.7.0"]
+DEBUG bundler: Activating gem racc-1.5.1
+DEBUG bundler: Activating gem mini_portile2-2.7.1
+DEBUG bundler: Activating gem nokogiri-1.13.1
+DEBUG bundler: Activating gem formatador-0.2.5
+DEBUG bundler: Activating gem builder-3.2.4
+DEBUG bundler: Activating gem fog-core-2.1.0
+DEBUG bundler: Activating gem ruby-libvirt-0.7.1
+DEBUG bundler: Activating gem fog-xml-0.1.1
+DEBUG bundler: Activating gem multi_json-1.14.1
+DEBUG bundler: Activating gem fog-json-1.2.0
+DEBUG bundler: Activating gem fog-libvirt-0.8.0
+DEBUG bundler: Activating gem vagrant-libvirt-0.7.0
+DEBUG solution_file: plugin file does not exist, not storing solution
+DEBUG bundler: solution set stored to - <Vagrant::Bundler::SolutionFile:/home/karl/.vagrant.d/plugins.json:/home/karl/projects/crud-master/.vagrant/bundler/global.sol:invalid>
+ INFO manager: Loading plugins...
+ INFO manager: Loading plugin `vagrant-libvirt` with default require: `vagrant-libvirt`
+ INFO manager: Registered plugin: libvirt
+DEBUG manager: Successfully loaded plugin `vagrant-libvirt`.
+ INFO loader: Set :root = ["#<Pathname:/home/karl/projects/crud-master/Vagrantfile>"]
+DEBUG loader: Populating proc cache for #<Pathname:/home/karl/projects/crud-master/Vagrantfile>
+DEBUG loader: Load procs for pathname: /home/karl/projects/crud-master/Vagrantfile
+ INFO loader: Loading configuration in order: [:home, :root]
+DEBUG loader: Loading from: root (evaluating)
+DEBUG provisioner: Provisioner defined: 
+ERROR vagrant: Vagrant experienced an error! Details:
+ERROR vagrant: #<Vagrant::Errors::VagrantfileNameError: There was an error loading a Vagrantfile. The file being loaded
+and the error message are shown below. This is usually caused by
+an invalid or undefined variable.
+
+Path: /home/karl/projects/crud-master/Vagrantfile
+Line number: 11
+Message: undefined local variable or method `vm'>
+ERROR vagrant: There was an error loading a Vagrantfile. The file being loaded
+and the error message are shown below. This is usually caused by
+an invalid or undefined variable.
+
+Path: /home/karl/projects/crud-master/Vagrantfile
+Line number: 11
+Message: undefined local variable or method `vm'
+ERROR vagrant: /usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/config/loader.rb:141:in `rescue in block (2 levels) in load'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/config/loader.rb:125:in `block (2 levels) in load'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/config/loader.rb:119:in `each'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/config/loader.rb:119:in `block in load'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/config/loader.rb:116:in `each'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/config/loader.rb:116:in `load'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/vagrantfile.rb:29:in `initialize'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/environment.rb:793:in `new'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/environment.rb:793:in `vagrantfile'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/environment.rb:974:in `process_configured_plugins'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/lib/vagrant/environment.rb:178:in `initialize'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/bin/vagrant:194:in `new'
+/usr/share/rubygems-integration/all/gems/vagrant-2.2.19/bin/vagrant:194:in `<top (required)>'
+/usr/bin/vagrant:25:in `load'
+/usr/bin/vagrant:25:in `<main>'
+Vagrant failed to initialize at a very early stage:
+
+There was an error loading a Vagrantfile. The file being loaded
+and the error message are shown below. This is usually caused by
+an invalid or undefined variable.
+
+Path: /home/karl/projects/crud-master/Vagrantfile
+Line number: 11
+Message: undefined local variable or method `vm'

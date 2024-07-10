@@ -2,7 +2,7 @@ const express = require('express')
 const sequelize = require("./app/config/database.js")
 const rabbitmq = require('./rabbitmq.js')
 const bodyParser = require('body-parser');
-require('dotenv').config({path:'../../.env'})
+require('dotenv').config()
 
 const app = express()
 app.use(bodyParser.json());
