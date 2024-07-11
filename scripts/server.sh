@@ -3,6 +3,10 @@ project="$1"
 
 install_node() {
     echo "$project here"
+<<<<<<< HEAD
+=======
+    sudo apt-get install curl
+>>>>>>> db5311f (Refactor vagrantfile and scripts)
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
     echo "$project 1"
     source ~/.nvm/nvm.sh
