@@ -4,7 +4,6 @@ const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize(process.env.DB_BILLING_NAME, process.env.DB_UNAME, process.env.DB_PW, {
   host: 'localhost',
   dialect: 'postgres',
-  port: 5432,
   define: {
     timestamps: false
   }   //Change to your database dialect

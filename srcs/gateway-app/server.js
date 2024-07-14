@@ -9,7 +9,7 @@ app.use('/', router)
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is running on port ${process.env.PORT}`)
-    rabbitMQConnection.connect(`amqp://localhost:${process.env.QUEUE_PORT}`).then(console.log('Connected to queue'))
+    rabbitMQConnection.connect(`amqp://${process.env.QUEUE_USERNAME}:${process.env.QUEUE_PASSWORD}@${process.env.BILLING_IP}`).then(console.log('Connected to queue'))
 })
 
 process.on('SIGINT', () => {

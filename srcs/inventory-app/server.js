@@ -2,13 +2,12 @@ require('dotenv').config()
 const express = require("express")
 const {sequelize} = require("./app/config/database.js")
 const app = express();
-const bodyParser = require('body-parser');
+app.use(express.json());
 
 const {test} = require('./app/config/database.js')
 
 const routes = require("./app/routes/Routes.js");
 
-app.use(bodyParser.json());
 app.use("/api/movies", routes)
 // Sync the database
 test()

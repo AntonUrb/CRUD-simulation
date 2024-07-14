@@ -2,8 +2,9 @@ const db = require('../models/index.js')
 
 
 const createMovie = (req, res) => {
+  console.log(req.body)
   const { title, description } = req.body;  // Deconstruct title and description from req.body
-
+  console.log(title, description)
   db.Movie.create({ title, description })
     .then(movie => {
       res.status(201).json(movie);  // Send the created movie as the response
@@ -16,7 +17,7 @@ const createMovie = (req, res) => {
 // Finds all movies
 const findAllMovies = (req, res) => {
   const { title } = req.query;
-
+  console.log(title)
   if (title) {
     return db.Movie.findOne({ where: title })
       .then(movie => {
