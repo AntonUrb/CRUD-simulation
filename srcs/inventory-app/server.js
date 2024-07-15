@@ -3,6 +3,7 @@ const express = require("express")
 const {sequelize} = require("./app/config/database.js")
 const app = express();
 app.use(express.json());
+app.use(express.urlencoded())
 
 const {test} = require('./app/config/database.js')
 

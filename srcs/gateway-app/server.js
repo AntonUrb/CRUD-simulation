@@ -4,6 +4,7 @@ const router = require('./routes')
 const rabbitMQConnection = require('./rabbitmq.js')
 const app = express();
 app.use(express.json())
+app.use(express.urlencoded())
 
 app.use('/', router)
 

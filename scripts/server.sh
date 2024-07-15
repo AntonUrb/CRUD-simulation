@@ -2,28 +2,20 @@
 project="$1"
 
 install_node() {
-    echo "$project here"
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
-    echo "$project 1"
     source ~/.nvm/nvm.sh
-    echo "$project 2"
     nvm install --lts
-    echo "$project 3"
     nvm use --lts
-    echo "$project 4"
     source ~/.bashrc
-    echo "$project 5"
     sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
-    echo "$project 6"
     sudo DEBIAN_FRONTEND=noninteractive apt-get install npm -y
-    echo "$project 7    "
     npm install -g npm@latest -y
-    echo "$project 8"
     sudo chown -R 1000:1000 "/home/vagrant/.npm"
-    echo "$project 9"
     cd ~/$project
     sudo npm install -g
     npm install pm2 -g
+    pm2 start .
+    sudo chown vagrant:vagrant /home/vagrant/.pm2/rpc.sock /home/vagrant/.pm2/pub.sock
 }
 
 set_env(){
@@ -51,3 +43,9 @@ set_env(){
 
 set_env
 install_node
+
+if [ "$project" == "gateway-app" ]; then
+    curl --request GET \
+  --url http://192.168.56.100:5000/api/movies \
+  --header 'User-Agent: insomnium/0.2.3-a'
+fi

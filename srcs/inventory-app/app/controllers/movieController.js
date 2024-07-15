@@ -7,7 +7,7 @@ const createMovie = (req, res) => {
   console.log(title, description)
   db.Movie.create({ title, description })
     .then(movie => {
-      res.status(201).json(movie);  // Send the created movie as the response
+      res.status(200).json(movie);  // Send the created movie as the response
     })
     .catch(error => {
       res.status(400).json({ error: error.message });  // Send the error message as the response

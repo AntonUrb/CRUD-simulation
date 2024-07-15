@@ -23,8 +23,8 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/focal64"
   config.vm.provision "file", source: "./.env", destination: "/home/vagrant/.env"
   
-  conf_vm(config, "inventory-app", INVENTORY, ["server", "psql"])
-  conf_vm(config, "billing-app", BILLING, ["server", "psql", "queue"])
+  conf_vm(config, "inventory-app", INVENTORY, ["psql","server"])
+  conf_vm(config, "billing-app", BILLING, ["psql", "queue","server"])
   conf_vm(config, "gateway-app", GATEWAY, ["server"])
 end
 #"debian/jessie64"
