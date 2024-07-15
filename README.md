@@ -3,9 +3,6 @@
 ## Overview
 This project sets up a simple microservices infrastructure for a movie streaming platform. It includes an API Gateway, an Inventory API, and a Billing API. The services communicate using HTTP and RabbitMQ and are encapsulated in different virtual machines using Vagrant.
 
-## Architecture Diagram
-![Architecture Diagram](path/to/diagram.png)
-
 ## Prerequisites
 Before starting, ensure you have the following software installed:
 - Node.js
